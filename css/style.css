@@ -1,0 +1,1095 @@
+@media (min-height: 670px) and (min-width: 992px) {
+    body {
+        background-color: #00007E;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px;
+        margin: 0;
+        color: black;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    a {
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+    }
+    
+    h1 {
+        font-size: 12px;
+        font-weight: normal;
+        margin: 0;
+        color: #00007E;
+        padding: 8px 40px;
+    }
+    
+    .nav {
+        display: flex;
+        background-color: #BBBBBB;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .nav_list {
+        display: flex;
+    }
+    
+    .nav_item {
+        margin-right: 40px;
+        padding: 8px 12px;
+    }
+    
+    .nav_active {
+        background-color: black;
+        color: #BBBBBB;
+    }
+    
+    .main_window {
+        width: 94%;
+        padding: 80px 40px 60px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container {
+        border: 3px solid black;
+        padding: 5px;
+        overflow: auto;
+    }
+    
+    .main_nav_container {
+        width: 230px;
+        height: 401px;
+    }
+    
+    .block {
+        padding: 10px;
+        box-shadow: 20px 20px black;
+        background-color: #BBBBBB;
+    }
+    
+    .nav_block {
+        height: 420px
+    }
+    
+    .main_nav_item {
+        width: 94%;
+        padding: 10px 10px;
+        margin: 0px;
+    }
+    
+    .main_nav_item:hover {
+        background-color: #4CA7A9;
+        color: #FFFFFF;
+    }
+    
+    .main_nav_active {
+        background-color: #4CA7A9;
+        color: #FFFFFF;
+    }
+    
+    .status_log_container {
+        width: 63%;
+        margin-right: 10px;
+        height: 98%;
+    }
+    
+    .main_block {
+        display: flex;
+        width: 68%;
+        height: 540px;
+        justify-content: space-between;
+    }
+    
+    .status_container {
+        height: 52%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .log_container {
+        height: 34%;
+    }
+    
+    .param_container {
+        width: 323px;
+        height: 98%;
+    }
+    
+    .field {
+        font-family: "";
+        padding: 9px;
+        background-color: #D9D9D9;
+        border: none;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px;
+        color: black;
+        box-shadow: 5px 5px black;
+    }
+    
+    button:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    button:active {
+        position: relative;
+        box-shadow: none;
+        top:5px;
+        left: 5px;
+    }
+    
+    button.green:hover {
+        background-color: #66A15A;
+        color: #FFFFFF;
+    }
+    
+    button.red:hover {
+        background-color: #AE4136;
+        color: #FFFFFF;
+    }
+    
+    .camera_button {
+        margin-top: 10px;
+    }
+    
+    a.camera_button:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    a.camera_button:active {
+        position: relative;
+        box-shadow: none;
+        top: 5px;
+        left: 5px;
+    }
+    
+    h2 {
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 15px;
+        margin-left: 15px;
+        color: #00007E;
+    }
+    
+    .content_container {
+        margin-left: 15px;
+        overflow: auto;
+    }
+    
+    .status_content {
+        width: 350px;
+        height: 410px;
+    }
+    
+    .log_content {
+        width: 350px;
+        height: 250px;
+    }
+    
+    .buttons_container {
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    
+    .log_warning {
+        color: #C31D1D;
+    }
+    
+    .param_input_container {
+        margin-left: 10px;
+    }
+    
+    h3 {
+        font-size: 12px;
+        font-weight: normal;
+        color: #00007E;
+        margin-bottom: 20px;
+    }
+    
+    .input_label {
+        margin: 30px 0 6px 0;
+    }
+    
+    .input_container {
+        margin-bottom: 45px;
+    }
+    
+    .param_input {
+        width: 190px;
+        margin-bottom: 5px;
+    }
+    
+    .add_printer {
+        border: none;
+        margin-top: 40px;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px;
+        color: black;
+    }
+    
+    button.block:hover {
+        top: 10px;
+        left: 10px;
+    }
+    
+    .control_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    
+    .control_input {
+        margin-left: 10px;
+    }
+    
+    .printer_info {
+        width: 100%;
+        height: 70%;
+        overflow: auto;
+    }
+    
+    .control_button {
+        width: 200px;
+        align-self: flex-end;
+    }
+    
+    .new_printer_container {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .form_input {
+        width: 300px;
+    }
+    
+    a.add_printer:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    a.add_printer:active {
+        position: relative;
+        box-shadow: none;
+        top: 10px;
+        left: 10px;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .camera {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .about {
+        position: relative;
+        top: 100px;
+        left: 22%;
+    }
+    
+    .about_container {
+        width: 470px;
+        height: 273px;
+        padding: 15px;
+    }
+
+    @media (min-height: 768px) {
+        .main_block {
+            display: flex;
+            width: 68%;
+            height: 640px;
+            justify-content: space-between;
+        }
+
+        .about {
+            position: relative;
+            top: 160px;
+        }
+
+        @media (min-height: 1024px) {
+            .main_block {
+                display: flex;
+                width: 68%;
+                height: 884px;
+                justify-content: space-between;
+            }
+
+            .status_container {
+                height: 58%;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .log_container {
+                height: 34%;
+            }
+            
+            .param_container {
+                width: 323px;
+                height: 98%;
+            }
+
+            .status_log_container {
+                width: 63%;
+                margin-right: 10px;
+                height: 98%;
+            }
+
+            .about {
+                position: relative;
+                top: 300px;
+            }
+        }
+    }
+}
+
+@media (min-height: 670px) and (min-width: 1200px) {
+    body {
+        background-color: #00007E;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px;
+        margin: 0;
+        color: black;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    a {
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+    }
+    
+    h1 {
+        font-size: 12px;
+        font-weight: normal;
+        margin: 0;
+        color: #00007E;
+        padding: 8px 40px;
+    }
+    
+    .nav {
+        display: flex;
+        background-color: #BBBBBB;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .nav_list {
+        display: flex;
+    }
+    
+    .nav_item {
+        margin-right: 40px;
+        padding: 8px 12px;
+    }
+    
+    .nav_active {
+        background-color: black;
+        color: #BBBBBB;
+    }
+    
+    .main_window {
+        width: 94%;
+        padding: 80px 40px 60px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container {
+        border: 3px solid black;
+        padding: 5px;
+        overflow: auto;
+    }
+    
+    .main_nav_container {
+        width: 230px;
+        height: 401px;
+    }
+    
+    .block {
+        padding: 10px;
+        box-shadow: 20px 20px black;
+        background-color: #BBBBBB;
+    }
+    
+    .nav_block {
+        height: 420px
+    }
+    
+    .main_nav_item {
+        width: 94%;
+        padding: 10px 10px;
+        margin: 0px;
+    }
+    
+    .main_nav_item:hover {
+        background-color: #4CA7A9;
+        color: #FFFFFF;
+    }
+    
+    .main_nav_active {
+        background-color: #4CA7A9;
+        color: #FFFFFF;
+    }
+    
+    .status_log_container {
+        width: 63%;
+        margin-right: 10px;
+        height: 98%;
+    }
+    
+    .main_block {
+        display: flex;
+        width: 68%;
+        height: 540px;
+        justify-content: space-between;
+    }
+    
+    .status_container {
+        height: 52%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .log_container {
+        height: 34%;
+    }
+    
+    .param_container {
+        width: 323px;
+        height: 98%;
+    }
+    
+    .field {
+        font-family: "";
+        padding: 9px;
+        background-color: #D9D9D9;
+        border: none;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px;
+        color: black;
+        box-shadow: 5px 5px black;
+    }
+    
+    button:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    button:active {
+        position: relative;
+        box-shadow: none;
+        top:5px;
+        left: 5px;
+    }
+    
+    button.green:hover {
+        background-color: #66A15A;
+        color: #FFFFFF;
+    }
+    
+    button.red:hover {
+        background-color: #AE4136;
+        color: #FFFFFF;
+    }
+    
+    .camera_button {
+        margin-top: 10px;
+    }
+    
+    a.camera_button:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    a.camera_button:active {
+        position: relative;
+        box-shadow: none;
+        top: 5px;
+        left: 5px;
+    }
+    
+    h2 {
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 15px;
+        margin-left: 15px;
+        color: #00007E;
+    }
+    
+    .content_container {
+        margin-left: 15px;
+        overflow: auto;
+    }
+    
+    .status_content {
+        width: 530px;
+        height: 410px;
+    }
+    
+    .log_content {
+        width: 530px;
+        height: 250px;
+    }
+    
+    .buttons_container {
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    
+    .log_warning {
+        color: #C31D1D;
+    }
+    
+    .param_input_container {
+        margin-left: 10px;
+    }
+    
+    h3 {
+        font-size: 12px;
+        font-weight: normal;
+        color: #00007E;
+        margin-bottom: 20px;
+    }
+    
+    .input_label {
+        margin: 30px 0 6px 0;
+    }
+    
+    .input_container {
+        margin-bottom: 45px;
+    }
+    
+    .param_input {
+        width: 120px;
+        margin-right: 2px;
+    }
+    
+    .add_printer {
+        border: none;
+        margin-top: 40px;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px;
+        color: black;
+    }
+    
+    button.block:hover {
+        top: 10px;
+        left: 10px;
+    }
+    
+    .control_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    
+    .control_input {
+        margin-left: 10px;
+    }
+    
+    .printer_info {
+        width: 100%;
+        height: 70%;
+        overflow: auto;
+    }
+    
+    .control_button {
+        width: 200px;
+        align-self: flex-end;
+    }
+    
+    .new_printer_container {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .form_input {
+        width: 300px;
+    }
+    
+    a.add_printer:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    a.add_printer:active {
+        position: relative;
+        box-shadow: none;
+        top: 10px;
+        left: 10px;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .camera {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .about {
+        position: relative;
+        top: 100px;
+        left: 28%;
+    }
+    
+    .about_container {
+        width: 470px;
+        height: 273px;
+        padding: 15px;
+    }
+
+    @media (min-height: 768px) {
+        .main_block {
+            display: flex;
+            width: 68%;
+            height: 640px;
+            justify-content: space-between;
+        }
+
+        .about {
+            position: relative;
+            top: 160px;
+        }
+
+        @media (min-height: 1024px) {
+            .main_block {
+                display: flex;
+                width: 68%;
+                height: 884px;
+                justify-content: space-between;
+            }
+
+            .status_container {
+                height: 58%;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .log_container {
+                height: 34%;
+            }
+            
+            .param_container {
+                width: 323px;
+                height: 98%;
+            }
+
+            .status_log_container {
+                width: 63%;
+                margin-right: 10px;
+                height: 98%;
+            }
+
+            .about {
+                position: relative;
+                top: 300px;
+            }
+        }
+    }
+}
+
+@media (min-height: 670px) and (min-width: 1440px) {
+    body {
+        background-color: #00007E;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 14px;
+        margin: 0;
+        color: black;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    a {
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+    }
+    
+    h1 {
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+        color: #00007E;
+        padding: 8px 40px;
+    }
+    
+    .nav {
+        display: flex;
+        background-color: #BBBBBB;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .nav_list {
+        display: flex;
+    }
+    
+    .nav_item {
+        margin-right: 40px;
+        padding: 8px 12px;
+    }
+    
+    .nav_active {
+        background-color: black;
+        color: #BBBBBB;
+    }
+    
+    .main_window {
+        width: 94%;
+        padding: 80px 40px 60px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .container {
+        border: 3px solid black;
+        padding: 5px;
+        overflow: auto;
+    }
+    
+    .main_nav_container {
+        width: 330px;
+        height: 401px;
+    }
+    
+    .block {
+        padding: 10px;
+        box-shadow: 20px 20px black;
+        background-color: #BBBBBB;
+    }
+    
+    .nav_block {
+        height: 420px
+    }
+    
+    .main_nav_item {
+        width: 94%;
+        padding: 10px 10px;
+        margin: 0px;
+    }
+    
+    .main_nav_item:hover {
+        background-color: #4CA7A9;
+        color: #FFFFFF;
+    }
+    
+    .main_nav_active {
+        background-color: #4CA7A9;
+        color: #FFFFFF;
+    }
+    
+    .status_log_container {
+        width: 63%;
+        margin-right: 10px;
+        height: 98%;
+    }
+    
+    .main_block {
+        display: flex;
+        width: 68%;
+        height: 540px;
+        justify-content: space-between;
+    }
+    
+    .status_container {
+        height: 52%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .log_container {
+        height: 34%;
+    }
+    
+    .param_container {
+        width: 323px;
+        height: 98%;
+    }
+    
+    .field {
+        font-family: "";
+        padding: 9px;
+        background-color: #D9D9D9;
+        border: none;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 14px;
+        color: black;
+        box-shadow: 5px 5px black;
+    }
+    
+    button:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    button:active {
+        position: relative;
+        box-shadow: none;
+        top:5px;
+        left: 5px;
+    }
+    
+    button.green:hover {
+        background-color: #66A15A;
+        color: #FFFFFF;
+    }
+    
+    button.red:hover {
+        background-color: #AE4136;
+        color: #FFFFFF;
+    }
+    
+    .camera_button {
+        margin-top: 10px;
+    }
+    
+    a.camera_button:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    a.camera_button:active {
+        position: relative;
+        box-shadow: none;
+        top: 5px;
+        left: 5px;
+    }
+    
+    h2 {
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 15px;
+        margin-left: 15px;
+        color: #00007E;
+    }
+    
+    .content_container {
+        margin-left: 15px;
+        overflow: auto;
+    }
+    
+    .status_content {
+        width: 530px;
+        height: 410px;
+    }
+    
+    .log_content {
+        width: 530px;
+        height: 250px;
+    }
+    
+    .buttons_container {
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    
+    .log_warning {
+        color: #C31D1D;
+    }
+    
+    .param_input_container {
+        margin-left: 10px;
+    }
+    
+    h3 {
+        font-size: 14px;
+        font-weight: normal;
+        color: #00007E;
+        margin-bottom: 20px;
+    }
+    
+    .input_label {
+        margin: 30px 0 6px 0;
+    }
+    
+    .input_container {
+        margin-bottom: 45px;
+    }
+    
+    .param_input {
+        width: 170px;
+        margin-right: 2px;
+    }
+    
+    .add_printer {
+        border: none;
+        margin-top: 40px;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 14px;
+        color: black;
+        padding: 10px 42px;
+    }
+    
+    button.block:hover {
+        top: 10px;
+        left: 10px;
+    }
+    
+    .control_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    
+    .control_input {
+        margin-left: 10px;
+    }
+    
+    .printer_info {
+        width: 100%;
+        height: 70%;
+        overflow: auto;
+    }
+    
+    .control_button {
+        width: 200px;
+        align-self: flex-end;
+    }
+    
+    .new_printer_container {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .form_input {
+        width: 300px;
+    }
+    
+    a.add_printer:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+    }
+    
+    a.add_printer:active {
+        position: relative;
+        box-shadow: none;
+        top: 10px;
+        left: 10px;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .camera {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .about {
+        position: relative;
+        top: 100px;
+        left: 32%;
+    }
+    
+    .about_container {
+        width: 470px;
+        height: 273px;
+        padding: 15px;
+    }
+
+    @media (min-width: 2000px) {
+        .about {
+            left: 37%;
+        }
+    }
+
+    @media (min-height: 768px) {
+        .main_block {
+            display: flex;
+            width: 68%;
+            height: 640px;
+            justify-content: space-between;
+        }
+
+        .about {
+            position: relative;
+            top: 160px;
+        }
+
+        @media (min-height: 1024px) {
+            .main_block {
+                display: flex;
+                width: 68%;
+                height: 884px;
+                justify-content: space-between;
+            }
+
+            .status_container {
+                height: 58%;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .log_container {
+                height: 34%;
+            }
+            
+            .param_container {
+                width: 323px;
+                height: 98%;
+            }
+
+            .status_log_container {
+                width: 63%;
+                margin-right: 10px;
+                height: 98%;
+            }
+
+            .about {
+                position: relative;
+                top: 300px;
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav">
+        <h1>Лаборатория 3D</h1>
+        <nav>
+            <ul class="nav_list">
+                <li><a href="index.html" class="nav_item nav_active">Главная</a></li>
+                <li><a href="control.html" class="nav_item">Управление принтером</a></li>
+                <li><a href="camera.html" class="nav_item">Камеры</a></li>
+                <li><a href="about.html" class="nav_item">О проекте</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_window">
+        <nav class="block nav_block">
+            <div class="container main_nav_container">
+                <ul class="main_nav_list">
+                    <li><a href="#" class="main_nav_item">Принтер 1</a></li>
+                    <li><a href="#" class="main_nav_item">Принтер 2</a></li>                    
+                </ul>
+            </div>
+        </nav>
+        <article class="block main_block">
+            <div class="status_log_container">
+                <div class="container status_container">
+                    <h2>Статус</h2>
+                    <div class="content_container status_content">
+                        <p>Текущая задача: {task.name}</p>
+                        <p>С момента запуска: {task.time}</p>
+                        <p>Осталось: {task.remains}</p>
+                        <p>Прогресс: {task.progress}</p>
+                        <p>Текущая задача: {task.name}</p>
+                        <p>С момента запуска: {task.time}</p>
+                        <p>Осталось: {task.remains}</p>
+                        <p>Прогресс: {task.progress}</p>
+                        <p>Текущая задача: {task.name}</p>
+                        <p>С момента запуска: {task.time}</p>
+                        <p>Осталось: {task.remains}</p>
+                        <p>Прогресс: {task.progress}</p>
+                        <p>Текущая задача: {task.name}</p>
+                        <p>С момента запуска: {task.time}</p>
+                        <p>Осталось: {task.remains}</p>
+                        <p>Прогресс: {task.progress}</p>
+                    </div>
+                    <div class="buttons_container">
+                        <button class="field green">< Пауза ></button>
+                        <button class="field red">< Стоп! ></button>
+                    </div>
+                </div>
+                <div class="container log_container">
+                    <h2>Лог</h2>
+                    <div class="content_container log_content">
+                        <p>11:49:32 / Задача “tits.stl” завершена</p>
+                        <p class="log_warning">10:26:57 / Задача “tits.stl” — отрыв от стола</p>
+                        <p>08:22:12 / Задача “tits.stl” запущена</p>
+                        <p>19:45:33 / Задача “boobs.stl” завершена</p>
+                        <p>17:43:35 / Задача “boobs.stl” запущена</p>
+                        <p>11:49:32 / Задача “tits.stl” завершена</p>
+                        <p class="log_warning">10:26:57 / Задача “tits.stl” — отрыв от стола</p>
+                        <p>08:22:12 / Задача “tits.stl” запущена</p>
+                        <p>19:45:33 / Задача “boobs.stl” завершена</p>
+                        <p>17:43:35 / Задача “boobs.stl” запущена</p>
+                        <p>11:49:32 / Задача “tits.stl” завершена</p>
+                        <p class="log_warning">10:26:57 / Задача “tits.stl” — отрыв от стола</p>
+                        <p>08:22:12 / Задача “tits.stl” запущена</p>
+                        <p>19:45:33 / Задача “boobs.stl” завершена</p>
+                        <p>17:43:35 / Задача “boobs.stl” запущена</p>
+                    </div>
+                </div>
+                <a class="field camera_button" href="camera.html">< Посмотреть видео с камеры ></a>
+            </div>
+            <div class="container param_container">
+                <div class="param_input_container">
+                    <h3>Параметры температуры</h3>
+                    <div class="input_container">
+                        <p class="input_label">Температура сопла</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Температура стола</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                    </div>
+                    <h3>Параметры головы</h3>
+                    <div class="input_container">
+                        <p class="input_label">Максимальная скорость</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Целевое ускорение</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Целевая скорость рывка</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Положение — ось X</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Положение — ось Y</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Положение — ось Z</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                    </div>
+                    <h3>Параметры экструдера</h3>
+                    <div class="input_container">
+                        <p class="input_label">Максимальная скорость</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Целевое ускорение</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <p class="input_label">Целевая скорость рывка</p>
+                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

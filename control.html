@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav">
+        <h1>Лаборатория 3D</h1>
+        <nav>
+            <ul class="nav_list">
+                <li><a href="index.html" class="nav_item">Главная</a></li>
+                <li><a href="control.html" class="nav_item nav_active">Управление принтером</a></li>
+                <li><a href="camera.html" class="nav_item">Камеры</a></li>
+                <li><a href="about.html" class="nav_item">О проекте</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_window">
+        <div>
+            <nav class="block nav_block">
+                <div class="container main_nav_container">
+                    <ul class="main_nav_list">
+                        <li><a href="#" class="main_nav_item">Принтер 1</a></li>
+                        <li><a href="#" class="main_nav_item">Принтер 2</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="new_printer.html" class="block add_printer">< Добавить принтер ></a>
+        </div>
+        <article class="block main_block">
+            <div class="container control_container">
+                <h3>О принтере</h3>
+                <div class="input_container">
+                    <p class="input_label">Название принтера</p>
+                    <input type="text" class="field param_input"><button class="field">< OK ></button>
+                </div>
+                <div class="printer_info">
+                    {<br>
+                        "country": "RU",<br>
+                        "display_message": {},<br>
+                        "firmware": "5.2.18.20210820",<br>
+                        "guid": "b32d82e4-913b-4e35-ae9b-38e322635799",<br>
+                        "hardware": {<br>
+                           "revision": 0,<br>
+                           "typeid": 9511 <br>
+                        },<br>
+                        "hostname": "ultimakersystem-ccbdd30059fc",<br>
+                        "language": "ru-RU",<br>
+                        "memory": {<br>
+                           "total": 1054928896,<br>
+                           "used": 287862784 <br>
+                        },<br>
+                        "name": "U1",<br>
+                        "platform": "Linux-4.14.32-ultimaker-armv7l-with-debian-8.1",<br>
+                        "time": {<br>
+                           "utc": 1670248155.555047 <br>
+                        },<br>
+                        "type": "3D printer",<br>
+                        "uptime": 76206,<br>
+                        "variant": "Ultimaker 3 Extended"<br>
+                </div>
+                <button class="field control_button red">< Удалить ></button>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
