@@ -12,23 +12,27 @@
 </head>
 <body>
     <header class="nav">
-        <h1>Лаборатория 3D</h1>
+        <h1 class="laptop">Лаборатория 3D</h1>
         <nav>
             <ul class="nav_list">
-                <li><a href="index.html" class="nav_item nav_active">Главная</a></li>
-                <li><a href="control.html" class="nav_item">Управление принтером</a></li>
-                <li><a href="camera.html" class="nav_item">Камеры</a></li>
-                <li><a href="about.html" class="nav_item">О проекте</a></li>
+                <li><a href="index.html" class="nav_item nav_active"><span class="laptop">Главная</span><img src="icon/home-button.svg" alt="home button" class="mobile home"></a></li>
+                <li><a href="control.html" class="nav_item"><span class="laptop">Управление принтером</span><img src="icon/settings.svg" alt="settings" class="mobile"></a></li>
+                <li><a href="camera.html" class="nav_item"><span class="laptop">Камеры</span><img src="icon/photo-camera.svg" alt="photo camera" class="mobile"></a></li>
+                <li><a href="about.html" class="nav_item"><span class="laptop">О проекте</span><img src="icon/alert-symbol.svg" alt="info" style="transform: rotate(180deg);" class="mobile info"></a></li>
             </ul>
         </nav>
     </header>
     <main class="main_window">
         <nav class="block nav_block">
             <div class="container main_nav_container">
-                <ul class="main_nav_list">
-                    <li><a href="#" class="main_nav_item">Принтер 1</a></li>
-                    <li><a href="#" class="main_nav_item">Принтер 2</a></li>                    
+                <ul class="main_nav_list laptop">
+                    <li><a href="#" class="main_nav_item main_nav_active laptop">Принтер 1</a></li>
+                    <li><a href="#" class="main_nav_item laptop">Принтер 2</a></li>                    
                 </ul>
+                <select class="mobile main_nav_mobile">
+                    <option value="">Принтер 1</option>
+                    <option value="">Принтер 2</option>
+                </select>
             </div>
         </nav>
         <article class="block main_block">
