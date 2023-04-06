@@ -58,8 +58,12 @@
                         <p>Прогресс: {task.progress}</p>
                     </div>
                     <div class="buttons_container">
-                        <button class="field green">< Пауза ></button>
-                        <button class="field red">< Стоп! ></button>
+                        <form action="" method="post" id="pause">
+                            <button class="field green" type="submit">< Пауза ></button>
+                        </form>
+                        <form action="" method="post" id="stop">
+                            <button class="field red" type="submit">< Стоп! ></button>
+                        </form>
                     </div>
                 </div>
                 <div class="container log_container">
@@ -89,33 +93,55 @@
                     <h3>Параметры температуры</h3>
                     <div class="input_container">
                         <p class="input_label">Температура сопла</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="temp_nozzle">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Температура стола</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="temp_table">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                     </div>
                     <h3>Параметры головы</h3>
                     <div class="input_container">
                         <p class="input_label">Максимальная скорость</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="head_max_speed">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Целевое ускорение</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="head_target_acceleration">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Целевая скорость рывка</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="head_target_speed_jerk">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Положение — ось X</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="head_x_value">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Положение — ось Y</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="head_y_value">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Положение — ось Z</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="head_z_value">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                     </div>
                     <h3>Параметры экструдера</h3>
                     <div class="input_container">
                         <p class="input_label">Максимальная скорость</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="extruder_max_speed">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Целевое ускорение</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="extruder_target_acceleration">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                         <p class="input_label">Целевая скорость рывка</p>
-                        <input type="text" class="field param_input"><button class="field">< OK ></button>
+                        <form action="" method="post" id="extruder_target_jerk">
+                            <input type="text" class="field param_input"><button class="field" type="submit">< OK ></button>
+                        </form>
                     </div>
                 </div>
             </div>

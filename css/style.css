@@ -1924,3 +1924,7 @@
         }
     }
 }
+
+form {
+    display: inline-block;
+}
